@@ -22,7 +22,7 @@ var app = module.exports = express.createServer(//express.logger(),
 //
 express.cookieParser(),
 //
-express.static(__dirname + '/public'),
+express.static('/public'),
 //
 express.session({
 	secret : 'keyboard cat'
@@ -31,7 +31,7 @@ app.register('.ejs', require('ejs'));
 
 app.set('view engine', 'ejs');
 
-app.set('views', path.join(__dirname, '/views'));
+app.set('views', path.join('/views'));
 
 app.get('/', function(req, res) {
 	res.render('index', {
