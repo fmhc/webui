@@ -1,0 +1,181 @@
+<style type="text/css">
+	.box-list .list-item ul.details li.tags {
+		text-shadow: none;
+	}
+	.box-list .list-item ul.details li.tags span.label {
+		margin-right: 2px;
+	}
+	.box-list {
+		padding-left: 20px;
+	}
+	.box-list .list-item {
+		padding: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		color: #585858;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		cursor: pointer;
+		background-color: #f1f1f1;
+		background-image: -moz-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: -ms-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e7e7e7));
+		background-image: -webkit-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: -o-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#e7e7e7', GradientType=0);
+		background-color: #f1f1f1;
+		background-image: -moz-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: -ms-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#e7e7e7));
+		background-image: -webkit-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: -o-linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-image: linear-gradient(top, #f8f8f8, #e7e7e7);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#e7e7e7', GradientType=0);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.2);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.2);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.2);
+		border: 1px solid #c9ccd0;
+		height: 80px;
+		overflow: hidden;
+		position: relative;
+	}
+	.box-list .list-item.span2 {
+		/*      width: 115px;*/
+
+	}
+	.box-list .list-item.span3 {
+		/*      width: 195px;*/
+
+	}
+	.box-list .list-item.span4 {
+		/*      width: 275px; */
+
+	}
+	.box-list .list-item.chosen {
+		/*      @shadow: inset 0 1px 7px rgba(0,0,0,.4), 0 1px 0px rgba(255,255,255,.5);*/
+
+		-webkit-box-shadow: inset 0 0px 0px 3px #3c7db2, inset 0 0px 12px 2px rgba(0, 0, 0, 0.6), 0 1px 0px rgba(255, 255, 255, 0.6);
+		-moz-box-shadow: inset 0 0px 0px 3px #3c7db2, inset 0 0px 12px 2px rgba(0, 0, 0, 0.6), 0 1px 0px rgba(255, 255, 255, 0.6);
+		box-shadow: inset 0 0px 0px 3px #3c7db2, inset 0 0px 12px 2px rgba(0, 0, 0, 0.6), 0 1px 0px rgba(255, 255, 255, 0.6);
+		-webkit-box-shadow: inset 0 0px 0px 3px #3c7db2, inset 0 0px 12px 2px rgba(0, 0, 0, 0.6), 0 1px 0px rgba(255, 255, 255, 0.6);
+		-moz-box-shadow: inset 0 0px 0px 3px #3c7db2, inset 0 0px 12px 2px rgba(0, 0, 0, 0.6), 0 1px 0px rgba(255, 255, 255, 0.6);
+		box-shadow: inset 0 0px 0px 3px #3c7db2, inset 0 0px 12px 2px rgba(0, 0, 0, 0.6), 0 1px 0px rgba(255, 255, 255, 0.6);
+		outline: 0;
+	}
+	.box-list .list-item.disabled {
+		cursor: default;
+		background-image: none;
+		background-color: #e8e8e8;
+	}
+	.box-list .list-item.disabled .icon, .box-list .list-item.disabled .info {
+		opacity: 0.8;
+	}
+	.box-list .list-item.infra h3 {
+		margin-top: 0px;
+	}
+	.box-list .list-item .warning {
+		position: absolute;
+		right: 15px;
+		top: 60px;
+		color: #C55C5C;
+		z-index: 1010;
+	}
+	.box-list .list-item .warning[data-icon]::before {
+		font-size: 36px;
+	}
+	.box-list .list-item h3 {
+		margin-top: 8px;
+		margin-bottom: -5px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.box-list .list-item h3 .version {
+		margin-left: 5px;
+		font-size: 10px;
+		color: #666;
+	}
+	.box-list .list-item .icon {
+		float: left;
+		margin-right: 8px;
+	}
+	.box-list .list-item .info {
+		float: left;
+		margin-left: 5px;
+		width: 187px;
+	}
+	.box-list .list-item.infra h3 {
+		margin-top: 0px;
+	}
+	.box-list .list-item .info p {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.box-list .list-item .info p.languages span {
+		text-transform: uppercase;
+		font-size: 10px;
+	}
+	.box-list .list-item ul.details {
+		list-style: none;
+		margin-left: 0;
+	}
+	.box-list .list-item ul.details li {
+		line-height: 20px;
+	}
+	.box-list .list-item ul.details li.tags {
+		text-shadow: none;
+	}
+	.box-list .list-item ul.details li.tags span.label {
+		margin-right: 2px;
+	}
+	.box-list .list-item.service-item {
+		height: 64px;
+		width: 196px;
+		padding: 8px;
+	}
+	.box-list .list-item.service-item .icon {
+		margin-right: 9px;
+	}
+	.box-list .list-item.service-item .info {
+		width: 123px;
+		margin-left: 0px;
+	}
+	.box-list .list-item.service-item .info h3 {
+		margin-top: 0px;
+	}
+</style>
+<ul class="thumbnails">
+	<li class="span4">
+		<h3><strong>Step 1:</strong> Choose an application</h3>
+		<a href="#" class="thumbnail"> <img data-src="holder.js/300x200" alt=""> </a>
+		<div class="span4 jumpstart list-item java chosen" data-bind="click:choose,&quot;class&quot;:item.id,css:{chosen:chosen,disabled:disabled}">
+			<div data-icon="!" data-title="Not Available" class="warning" data-bind="visible:hasErrors,popover:errorMessages" data-original-title="" data-content="" style="display: none;"></div>
+			<div class="icon"><img title="icon" data-bind="attr:{src:item.icon}" width="80" height="80" src="https://console.appfog.com/images/jumpstarts/icon-java.png">
+			</div>
+			<div class="info">
+				<h3><span data-bind="text:item.name">Java</span><span class="version" data-bind="text:item.version,visible:item.version">1.6.0</span></h3>
+				<ul class="details">
+					<li class="tags">
+						<span data-bind="text:item.language" class="label">java</span><div style="display:inline" data-bind="foreach:item.services"></div>
+					</li>
+					<li class="links">
+						<a class="code" data-bind="click:item.go,click-bubble:false,attr:{href:item.browse_url}">Browse Code</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+</ul>

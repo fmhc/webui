@@ -1,0 +1,142 @@
+<ul class="thumbnails span6 " id="{{- id }}">
+
+	<hr>
+	<li>
+		<div class="span12" align="center">
+			<div class="caption">
+				<h3 class="app-name">Loading...</h3>
+				<hr>
+				<img style="width: 100%" src="http://nodejs.org/images/logo-light.png">
+
+				<hr>
+				<div class="notifactions"></div>
+				<table class="table">
+					<thead>
+						<tr>
+							<th colspan="2">INFO</th>
+							<th>Update</th>
+							<th>Status</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="app-status">
+							<td colspan="2" class="app-status-val">LOADING...</td>
+							<td colspan="1" class="countdown"></td>
+							<td colspan="1"><span class="app-status-label label label-success">Success</span></td>
+						</tr>
+						<tr>
+							<td colspan="4"  class="description"></td>
+						</tr>
+						<tr>
+							<th colspan="1">uid</th>
+							<th colspan="1">cpu</th>
+							<th colspan="1">mem</th>
+							<th colspan="1">status</th>
+						</tr>
+
+					</tbody>
+					<tbody class="spawns-list">
+
+					</tbody>
+					<tbody>
+						<tr>
+							<th>Service</th>
+							<th colspan="2">Val</th>
+							<th>Status</th>
+						</tr>
+						<tr class="app-memory">
+							<td colspan="1" id="status-val">Memory:</td>
+							<td colspan="2"  class="app-memory-val">0MB / 0MB</td>
+							<td colspan="1" id="status-val"><span class="app-memory-label label label-success">Success</span></td>
+						</tr>
+						<tr>
+							<td colspan="1" id="status-val">Disk:</td>
+							<td colspan="2" id="status-val">(Comming soon)</td>
+							<td colspan="1" id="status-val"><span class="label label-success">Success</span></td>
+						</tr>
+
+						<tr class="app-http">
+							<td colspan="1" >HTTP:</td>
+							<td colspan="2"  class="app-http-val">0MB / 0MB</td>
+							<td colspan="1"><span class="app-http-label label label-success">Success</span></td>
+						</tr>
+
+						<tr>
+							<td colspan="1">Domain:</td>
+							<td colspan="3"><a href="#" class="app-domain">http://mangoraft.com/</a></td>
+						</tr>
+						<tr>
+							<th colspan="4">Spawn Count/scale (<span class="spawn-count">0</span>)</th>
+						</tr>
+						<tr>
+							<td colspan="2">
+							<div class=" btn-group" style="margin: 9px 0 5px;">
+								<button class="spawn-sacle-down btn">
+									Down
+								</button>
+								<button class="spawn-sacle-stop btn">
+									Stop
+								</button>
+								<button class="spawn-sacle-up btn">
+									Up
+								</button>
+							</div><div class="slider-instance-count"></div></td>
+
+							<td colspan="2">
+							<div class="progress">
+								<div class="spawn-count-used bar bar-info" style="width: 0%;"></div>
+								<div class="spawn-count-free bar bar-success" style="width: 100%;"></div>
+							</div></td>
+						</tr>
+
+						<tr>
+							<th colspan="6">Memory Usage</th>
+						</tr>
+						<tr>
+							<td class="app-memory-usage" colspan="6">
+							<div class="progress">
+								<div class="app-memory-usage-other bar bar-warning" style="width: 0%;">
+									44MB
+								</div>
+								<div class="app-memory-usage-user bar bar-danger" style="width: 0%;">
+									45435MB
+								</div>
+								<div class="app-memory-usage-free bar  bar-success" style="width: 100%;">
+									33MB
+								</div>
+							</div></td>
+						</tr>
+						<tr>
+							<td><span class="label label-warning">Other Apps</span></td>
+							<td><span class="label label-important">This App</span></td>
+							<td><span class="label label-success">Free</span></td>
+							<td><span class="label label-info">Change</span></td>
+						</tr>
+
+						<tr>
+							<th colspan="6">Spawn Load</th>
+						</tr>
+						<tr>
+							<td colspan="6" align="center"><div style="height:100px;" class="demo-placeholder"></div></td>
+						</tr>
+						<tr>
+							<th colspan="6">Balancer Requests</th>
+						</tr>
+						<tr>
+							<td colspan="6" align="center"><div style="height:100px;" class="balancer-requests-placeholder"></div></td>
+						</tr>
+						<tr>
+							<th colspan="6">Balancer Traffic (<span class="balancer-traffic-out">0</span> / <span class="balancer-traffic-in">0</span>)</th>
+						</tr>
+						<tr>
+							<td colspan="6" align="center"><div style="height:100px;" class="balancer-traffic-placeholder"></div></td>
+						</tr>
+					</tbody>
+				</table>
+				<p>
+
+				</p>
+			</div>
+		</div>
+	</li>
+</ul>
