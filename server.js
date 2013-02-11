@@ -6,8 +6,8 @@ ejs.open = '{{';
 ejs.close = '}}';
 
 var CONFIG = {
-	uri : 'webui.mangoraft.com',
-	wsHost : 'ws.api.mangoraft.com',
+	uri : 'webui.coolbox',
+	wsHost : 'ws.api.coolbox',
 	wsPort : 9004,
 	static : 'static.us.aws.mangoraft.com'
 }
